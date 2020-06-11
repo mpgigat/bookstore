@@ -1,0 +1,17 @@
+crear proyecto con vueX ROUTER
+dependencias
+
+AXIUS: PETICION A ENDPOINT
+VEUTIFULL, NOS EXPONE COMPONENTES QUE PODEMOS UTILIZAR EN OTROS PROYECTOS
+   vue ui  e instalamos vuetify y axios
+
+   configuramos vuetify de ser el caso 
+
+   vemos dentro de plugings el archivo vuetify, y si vamos a nuestro main
+   
+
+   
+   
+
+
+

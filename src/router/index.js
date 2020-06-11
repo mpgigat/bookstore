@@ -1,24 +1,20 @@
+//AQUI VAMOS A HACER VARIOS CAMBIOS, PARA DEJARLO LISTO
+//DE ACUERDO A LO QUE NECESITAMOS
+    //ELIMINAR IMPORT HOME
+    //ELIMINAR TODO LO QUE ESTA DENTRO DE ROUTES
+
+    //LO DEMAS SI LO MANTENEMOS TAL CUAL
+
+    //VAMOS AL MAIN A     2    2      2       2
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
-]
+    
+  ]
 
 const router = new VueRouter({
   mode: 'history',
